@@ -18,16 +18,28 @@
 		</header>
 
 		<main class="page-content" role="main">
-			<h1>Resources and Content from Ficly</h1>
+			<h1>Resources and Content from Ficly and ficlets</h1>
 
-			<p>This site serves as a complement to <a href="http://ficly.com/">Ficly</a>, providing a list of links and resources to the site, its source code, and its content. For details on the changes coming to Ficly, see Kevin’s <a href="http://ficly.com/blog/farewell-ficly">blog post in The Writer’s Room</a>. We’ll update this page as we release more code and content. Thanks for your support and check back here soon for more!</p>
+      <p>This site serves as a place to grab things related to Ficly and ficlets now that they're officially sunset (see the <a href="http://ficly.com/blog/farewell-ficly">blog post in The Writer’s Room</a>) and the static sites are live. If you'd like to do something with the stories created on either sites, there are files you can use in the two repos linked below.</p>
+
+      <p>Thank you to everyone who loved ficlets and Ficly and all the people who wrote stories, comments, and rated things. It was a joy to bring it to life.</p>
 
 			<h2>Links</h2>
 
 			<ul>
-				<li><a href="http://ficly.com/" class="h-card">Ficly</a></li>
-        <li><a href="http://ficly.s3.amazonaws.com/ficly.com.tar.gz">Static Ficly</a> - This is an HTML-only version of Ficly.  It's 180mb compressed and over 1.5gb uncompressed. If you just want the stories, I'd wait until we upload the cleaned up database dump!</li>
-				<li><a href="http://ficlets.ficly.com/" class="h-card">The Ficlets Memorial</a></li>
+				<li>
+          <a href="http://ficly.com/" class="h-card">Ficly</a>: It's now static.
+          <ul>
+            <li><a href="https://github.com/ficly/ficly_export">Ficly Export</a>: This is the Rails app used to generate the static version of Ficly. There is a SQL export of all the relevant tables in the db directory of this repo!</li>
+          </ul>
+        </li>
+        <li>
+          <a href="https://ficlets.com">ficlets</a>: The thing that came before Ficly.  This is the static archive.
+          <ul>
+            <li><a href="https://github.com/ficly/ficlets_export">Ficlets Export</a>: The Rails app used to generate the static version of ficlets.</li>
+          </ul>
+        </li>
+
 			</ul>
 		</main>
 	</div>
